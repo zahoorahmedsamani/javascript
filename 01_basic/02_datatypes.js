@@ -26,3 +26,11 @@ let min=1
 
 
 console.log(Math.floor(Math.random() * (max + min - 1)) )  // This is the formula used to get the value in desired range
+
+
+// Primitive Datatype
+// 7 = String, Number, Boolean, Null, Undefined, Symbols, BigInt
+
+// Reference Datatype (Non Primitive)
+// Array, Objects, Functions
+
