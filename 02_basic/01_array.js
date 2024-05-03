@@ -15,8 +15,8 @@ n1.shift() // Remove from Start
 //console.log(n1);
 
 // Slice and Splice Method
-n1.slice(1, 3)
-n1.splice(0, 3)
+// n1.slice(1, 3)
 console.log(n1);
-
-
+n1.splice(1, 3)
+//console.log(n1.includes(2));
+console.log(n1);
