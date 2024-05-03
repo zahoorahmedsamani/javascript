@@ -4,7 +4,7 @@ console.log(newString);
 console.log(newString[7]);
 
 console.log(newString.length);
-console.log(newString.toUpperCase);
+console.log(newString.toUpperCase());
 
 console.log(newString.charAt(3));
 console.log(newString.indexOf('r'));
