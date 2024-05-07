@@ -1,15 +1,17 @@
+// symbol declaration
 const city = Symbol();
 
+// Object Declaration
 const obj = {
     name : "Samani",
     age: 28,
-    [city] : "Mumbai",
+    [city] : "Mumbai", //symbol value
     email: "zahoor@gmail.com"
 }
 
-// object calling
-// console.log(obj.name);
-console.log(obj["name"]);
+// 2 type of object calling
+//console.log(obj.name); // First
+console.log(obj["name"]); //Second
 
 obj.email = "samani@gmail.com"
 
@@ -21,6 +23,6 @@ obj.greeting = function() {
 console.log(obj.greeting());
 
 obj.greetingOne = function() {
-    console.log(`Hello Object ${this.name}`);
+    console.log(`Hello Object ${this.name}`); // This is known as Template literal
 }
 console.log(obj.greetingOne());
