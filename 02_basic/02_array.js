@@ -1,5 +1,6 @@
 const arr1 = [1, 2, 3]
 const arr2 = [4, 5, 6]
+const arr3 = [4, 5, 6]
 
 // arr1.push(arr2)
 
@@ -8,12 +9,12 @@ const arr2 = [4, 5, 6]
 // arr1.concat(arr2)
 // console.log(arr1);
 
-const newArr = arr1.concat(arr2)
+const newArr = arr1.concat(arr2, arr3)
 console.log(newArr);
 
 // Spread Operator
 
-const spreadArr = [...arr1, ...arr2]
+const spreadArr = [...arr1, ...arr2, ...arr3]
 console.log(spreadArr);
 
 // Array in array
@@ -26,8 +27,8 @@ console.log(properArray);
 console.log(Array.isArray(multipleArray))
 console.log(Array.from("Ahmed"))
 
-let arr3 = 100
+//let arr3 = 100
 let arr4 = 200
 let arr5 = 300
 
-console.log(Array.of(arr3, arr4, arr5))
+console.log(Array.of(arr4, arr5))
